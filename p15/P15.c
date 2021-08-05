@@ -92,8 +92,8 @@ int main(){
 
 int bSearch(int array[],int size,int num){
     int l,r,mid;
-    l=array[0];
-    r=array[size-1];
+    l=0;
+    r=size-1;
     
     while(l<=r){
         mid = (l+r)/2;
